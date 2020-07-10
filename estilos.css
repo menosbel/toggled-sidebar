@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.sidebar {
+    height: 1000px;
+    width: 20%;
+    background: #648381;
+    display: block;
+}
+
+.sidebar-top{
+    padding: 20px 20px;
+    background: #1A231D;
+    color: #E4FDE1;
+}
+
+.sidebar .sidebar-top h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 25px;
+    padding: 20px 0;
+}
+
+.sidebar-content {
+    padding: 0 20px;
+}
+
+.sidebar .sidebar-content li {
+    padding: 15px 10px;
+    list-style: none;
+    border-bottom: 1px solid #000;
+}
+
+.sidebar-content li a {
+    text-decoration: none;
+    color: #E4FDE1;
+}
+
+li a:hover {
+    color: #1A231D;
+}
+
+li i:hover {
+    color: #1A231D;
+}
+
+.sidebar .sidebar-content .sidebar-btn {
+    padding: 5px 10px;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    background: #648381;
+    border: 1px solid #1A231D;
+    border-radius: 5px;
+    outline: none;
+}
+
+.sidebar .sidebar-content .sidebar-btn:hover {
+    background: #1A231D;
+    color: #E4FDE1;
+}
+
+.sidebar-small {
+    height: 1000px;
+    width: 5%;
+    background: #648381;
+    display: none;
+}
+
+.sidebar-small .sidebar-top h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 25px;
+    padding: 20px 0;
+}
+
+.sidebar-small .sidebar-content li {
+    padding: 15px 10px;
+    list-style: none;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+.sidebar-small .sidebar-content .sidebar-btn {
+    padding: 5px 0;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    background: #648381;
+    border: 1px solid #1A231D;
+    border-radius: 5px;
+    outline: none;
+}
+
+.sidebar-small .sidebar-content ul li a i {
+    font-size: 20px;
+}
+
+.sidebar-small .sidebar-content .sidebar-btn:hover {
+    background: #1A231D;
+    color: #E4FDE1;
+}
+
+.main-large {
+    height: 100%;
+    width: 95%;
+}
+
+.main {
+    height: 100%;
+    width: 70%;
+}
